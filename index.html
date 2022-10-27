@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tres en raya multijugador</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="funciones.js" async></script>
+</head>
+<body>
+	<div class="menu" id="menu">
+		Menú principal
+	<!-- BotonesMenu-->
+		<button name="iniciar" id = "iniciar">Iniciar juego</button>
+		<button name="reset" id = "reset">Resetear juego</button>
+		<button name="muestraDatos" id="muestraDatos">Mostrar puntuación</button>
+		<button name="guardarDatos" id="guardarDatos">Guardar puntuación</button>
+		<button name="cargarDatos" id="cargarDatos">Cargar puntuación</button>
+		<button name="salir" id="salir">Salir</button>
+		<div id="datos">
+			<h3>Puntos Jugador 1:</h3><p id="puntosJugador1"> </p>
+			<h3>Puntos Jugador 2:</h3><p id="puntosJugador2"> </p>
+			<h3>Puntos Empate:</h3><p id="empates"> </p>
+			<h3>Partidas Jugadas:</h3><p id="partidasJugadas"> </p>
+		</div>
+	  </div>
+  
+	
+	<input type="text" id="nombreJugador1" placeholder="Introduce tu nombre jugador1">
+	<input type="text" id="nombreJugador2" placeholder="Introduce tu nombre jugador2">
+	<input type="number" id="partidasMax">
+	<h1 id="turnoDelJugador"></h1>
+	<h1 id="textoVictoriaJugador1"></h1>
+	<h1 id="textoVictoriaJugador2"></h1>
+	<!-- Si hacemos click en iniciar muestra los botonesJuego-->
+	
+	<div id="tablero">
+		<button name = "botonesJuego"></button>
+		<button name = "botonesJuego"></button>
+		<button name = "botonesJuego"></button>
+		<button name = "botonesJuego"></button>
+		<button name = "botonesJuego"></button>
+		<button name = "botonesJuego"></button>
+		<button name = "botonesJuego"></button>
+		<button name = "botonesJuego"></button>
+		<button name = "botonesJuego"></button>
+		
+	</div>	
+
+	
+	
+</body>
+</html>
